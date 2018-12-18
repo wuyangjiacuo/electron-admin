@@ -1,4 +1,4 @@
-import appContainer from './common/appContainer.vue'
+import appContainer from './layout/appContainer.vue'
 import pagenation from './common/pagenation'
 import editor from './common/editor'
 import treeTable from './common/treeTable'
