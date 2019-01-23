@@ -2,8 +2,8 @@ import axios from 'axios'
 class BaseServer {
   constructor () {
     // this.baseurl = 'http://120.78.175.231:8686'
-    this.baseurl = 'http://47.100.188.220:8686' // 新买的两年服务器
-    // this.baseurl = 'http://localhost:8686'
+    // this.baseurl = 'http://47.100.188.220:8686' // 新买的两年服务器
+    this.baseurl = 'http://localhost:9000'
   }
   Post (obj, url) {
     return axios({
